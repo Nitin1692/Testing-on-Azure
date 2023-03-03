@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pneumonia Detection</h1>
+        <form action="/" method="POST" enctype="multipart/form-data" >
+            <input id="image" class="image" type="file" accept="image/png, image/jpeg" name="imagefile">
+            <input type="submit" value="Predict">
+        </form>
+        % if prediction %
+            <p>{{prediction}}</p>
+        % end if % 
+    </div>  
+</body>
+</html>
