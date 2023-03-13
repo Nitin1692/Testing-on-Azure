@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'PneumoniaDet'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_306F5AA99B6446ECB68DCADC66AC064B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_06C6128FA5BB4645B5AD7CE879B998FA }}
